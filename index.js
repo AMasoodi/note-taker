@@ -1,10 +1,11 @@
-const addBox = document.querySelector('.add-box'),
-popupBox = document.querySelector('.popup-box'),
-popupTitle = popupBox.querySelector('header p'),
-closeIcon = document.querySelector('header i'),
-titleEl = document.querySelector('input'),
-descEl = document.querySelector('textarea'),
-addBtn = document.querySelector('button ');
+
+let addBox = document.querySelector('.add-box');
+let popupBox = document.querySelector('.popup-box');
+let popupTitle = popupBox.querySelector('header p');
+let closeIcon = document.querySelector('header i');
+let titleEl = document.querySelector('input');
+let descEl = document.querySelector('textarea');
+let addBtn = document.querySelector('button ');
 
 
 const months= ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
